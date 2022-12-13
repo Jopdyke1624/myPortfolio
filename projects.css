@@ -1,0 +1,13 @@
+.container-fluid {
+  font-size: 30pt;
+  margin-right: 200px;
+}
+
+.layout-top , .layout-bttm {
+  display: flex;
+  justify-content: center;
+  gap: 25pt;
+  flex-wrap: wrap;
+  padding-top: 50pt;
+}
+
