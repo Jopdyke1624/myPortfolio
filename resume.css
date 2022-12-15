@@ -1,0 +1,50 @@
+.container-fluid {
+  font-size: 30pt;
+  margin-right: 200px;
+}
+.me {
+  width: 500px;
+  border: solid;
+  border-radius: 100pt;
+}
+
+.top {
+  width: 2550px;
+  display: flex;
+  flex-direction: row;
+  gap: 30pt;
+  padding-top: 30pt;
+  align-items: center;
+}
+
+.col2 {
+  text-align: center;
+}
+
+.col4 {
+  padding-left: 500pt;
+  padding-top: 30pt;
+
+  flex-grow: ;
+}
+
+.col1-row2 {
+  width: 500px;
+}
+
+.middle {
+  flex-grow: 1;
+}
+
+.middle2 {
+  display: flex;
+  gap: 25pt;
+}
+
+.vl {
+  border-right: 3pt solid lightgrey;
+  opacity: 50%;
+}
+
+.circle {
+}
