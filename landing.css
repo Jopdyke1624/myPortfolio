@@ -1,13 +1,42 @@
-
 .container-fluid {
   font-size: 30pt;
   margin-right: 200px;
 }
 
-.flex-grow-1.ms-3{
+.flex-grow-1.ms-3 {
   text-align: center;
-  font-family: 'La Belle Aurore', cursive;
+  font-family: "La Belle Aurore", cursive;
   font-size: 30pt;
   font-weight: 400;
+  
 }
 
+.top {
+  font-size: 50pt;
+  background-image: url(/images/grunge-banner-3-10.png);
+  background-size: 921px 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #f2efd8;
+}
+.d-flex.align-items-center {
+  background-color: #d1cdab;
+}
+
+img {
+  opacity: 75%;
+}
+
+p{
+  padding-top: 20pt;
+  padding-right: 25pt;
+}
+
+.middle{
+  font-size: 50pt;
+  background-image: url(/images/grunge-banner-3-10.png);
+  background-size: 1221px 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #f2efd8;
+}
