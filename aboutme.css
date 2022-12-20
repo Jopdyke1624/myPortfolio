@@ -5,7 +5,7 @@
 
 .rounded.mx-auto.d-block {
   margin-top: 20pt;
-  height: 500px;
+  height: 700px;
   border-style: solid;
   color: black;
 }
@@ -19,10 +19,27 @@
   gap: 30pt;
   color: black;
   border-radius: 20pt;
+  font-size: 30pt;
 }
 
 .center {
   display: flex;
   flex-direction: column;
   gap: 10pt;
+}
+
+.carousel-inner {
+  width: 500px;
+  height: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10pt;
+}
+
+.carousel-dark {
+  align-items: center;
+}
+
+h5 {
+  color: ;
 }
