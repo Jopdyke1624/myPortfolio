@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+main {
+  width: 850px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.title {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 450px;
+  width: 850px;
+  background-image: url("https://nyiconnect.com/wp-content/uploads/2021/07/Lets-Chat-Logo-Landscape.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  font-size: 40pt;
+}
+
+section {
+  background-color: rgb(235, 231, 231);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+}
+
+.text {
+  color: rgb(67, 77, 87);
+  line-height: 2em;
+  font-weight: 700;
+  font-family: "La Belle Aurore", cursive;
+  font-size: 15pt;
+}
+
+.text-container {
+  width: 270px;
+  height: 324px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+}
+
+h4 {
+  font-size: 25pt;
+  font-weight: 700;
+  font-family: "La Belle Aurore", cursive;
+}
+
+p {
+  font-size: 15pt;
+  font-family: "La Belle Aurore", cursive;
+  font-weight: 700;
+}
+
+label {
+  font-family: "La Belle Aurore", cursive;
+  font-size: 15pt;
+  font-weight: 700;
+}
+
+#submit {
+  background-color: slategray;
+  border: solid slategray;
+  border-radius: 5pt;
+  color: azure;
+}

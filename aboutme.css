@@ -3,43 +3,51 @@
   margin-right: 200px;
 }
 
-.rounded.mx-auto.d-block {
-  margin-top: 20pt;
-  height: 700px;
-  border-style: solid;
-  color: black;
-}
-#story {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  border-style: solid;
-  margin-left: 30%;
-  margin-right: 30%;
-  gap: 30pt;
-  color: black;
-  border-radius: 20pt;
-  font-size: 30pt;
-}
-
-.center {
-  display: flex;
-  flex-direction: column;
-  gap: 10pt;
-}
-
 .carousel-inner {
-  width: 500px;
-  height: 800px;
+  max-width: 900px;
   margin-left: auto;
   margin-right: auto;
   padding-top: 10pt;
 }
 
-.carousel-dark {
-  align-items: center;
+#carouselExampleDark {
+  background-color: slategray;
 }
 
+
 h5 {
-  color: ;
+  padding-top: 10pt;
+  color: white;
+}
+
+.d-block.w-75{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+P{
+  
+  color: white;
+  
+}
+
+.carousel-caption{
+  background-image: url("images/grunge-banner-3-10.png");
+  background-size: 630px 112px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+@media (max-width:375px){
+  #carouselExampleDark{
+    display:flex;
+    background-color: aqua;
+    flex-direction: column;
+    
+    
+  }
+
+
+
 }

@@ -3,11 +3,12 @@
   margin-right: 200px;
 }
 
-.layout-top , .layout-bttm {
+.layout-top,
+.layout-bttm {
   display: flex;
   justify-content: center;
   gap: 25pt;
   flex-wrap: wrap;
   padding-top: 50pt;
+  background-color: slategray;
 }
-

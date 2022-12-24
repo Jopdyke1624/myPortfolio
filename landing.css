@@ -1,5 +1,5 @@
 .container-fluid {
-  font-size: 30pt;
+  font-size: 20pt;
   margin-right: 200px;
 }
 
@@ -8,7 +8,6 @@
   font-family: "La Belle Aurore", cursive;
   font-size: 30pt;
   font-weight: 400;
-  
 }
 
 .top {
@@ -27,16 +26,57 @@ img {
   opacity: 75%;
 }
 
-p{
+p {
   padding-top: 20pt;
   padding-right: 25pt;
 }
 
-.middle{
+.myContainer{
+  flex-direction: row-reverse;
+}
+
+.bttm{
   font-size: 50pt;
   background-image: url(/images/grunge-banner-3-10.png);
   background-size: 1221px 200px;
   background-position: center;
   background-repeat: no-repeat;
   color: #f2efd8;
+}
+
+.middle {
+  font-size: 50pt;
+  background-image: url(/images/grunge-banner-3-10.png);
+  background-size: 1221px 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #f2efd8;
+}
+
+@media (max-width:1625px){
+.d-flex.align-items-center {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.top{
+  font-size: 20pt;
+  background-size: 350px 100px;
+}
+
+.middle {
+  font-size: 20pt;
+  background-size: 350px 100px;
+}
+
+.bttm {
+  font-size: 20pt;
+  background-size: 259px 100px;
+}
+
+.edit{
+  width: 100%;
+  height: 50%;
+}
 }
