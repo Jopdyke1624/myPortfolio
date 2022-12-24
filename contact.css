@@ -15,6 +15,11 @@ main {
   gap: 20px;
 }
 
+.container-fluid {
+  font-size: 20pt;
+  margin-right: 200px;
+}
+
 .title {
   margin: auto;
   display: flex;
