@@ -37,8 +37,8 @@ p {
 
 .bttm{
   font-size: 50pt;
-  background-image: url(/images/grunge-banner-3-10.png);
-  background-size: 1221px 200px;
+  background-image: url(images/grunge-banner-3-10.png);
+  background-size: 900px 200px;
   background-position: center;
   background-repeat: no-repeat;
   color: #f2efd8;
@@ -46,8 +46,8 @@ p {
 
 .middle {
   font-size: 50pt;
-  background-image: url(/images/grunge-banner-3-10.png);
-  background-size: 1221px 200px;
+  background-image: url(images/grunge-banner-3-10.png);
+  background-size: 900px 300px;
   background-position: center;
   background-repeat: no-repeat;
   color: #f2efd8;
