@@ -15,9 +15,11 @@
   gap: 30pt;
   padding-top: 30pt;
   align-items: center;
+  border-top: solid 3pt slategray;
 }
-.col1{
-  background-color: slategray ;
+.col1 {
+  background-color: slategray;
+  min-width: 564px;
 }
 
 .col2 {
@@ -27,25 +29,21 @@
 .col4 {
   margin-left: auto;
   margin-right: auto;
-  
-}
-
-.bttm {
-  gap: 365px;
 }
 
 .middle2 {
   display: flex;
   gap: 25pt;
+  border-top: solid 3pt slategray;
 }
 
 h2 {
   width: 500px;
 }
 
-
-
-
+.col1-row2 {
+  min-width: 564px;
+}
 
 .vl {
   border-right: 3pt solid lightgrey;
@@ -105,7 +103,7 @@ h2 {
     text-align: center;
   }
 
-  .container-fluid{
+  .container-fluid {
     margin: 0;
   }
 }
